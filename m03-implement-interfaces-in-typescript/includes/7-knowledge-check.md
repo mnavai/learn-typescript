@@ -9,7 +9,7 @@ What is the primary job of an interface?
 
 ()Fulfill the code contract for an object.{{A function or class that implements the interface are responsible for fulfilling the code contract for an object.}}
 
-(x)Describe the properties and return types of an object.{{An interface describes the properties and return types, while a function or class define the implementation details.}}
+(**X**)Describe the properties and return types of an object.{{An interface describes the properties and return types, while a function or class define the implementation details.}}
 
 ## Multiple Choice
 
@@ -19,13 +19,13 @@ How can you prevent the type system from raising an error when a property in an 
 
 ()Make the property read only.{{TypeScript will raise an error when a read only property is omitted, unless it is also optional.}}
 
-(x)Make the property optional.{{Optional properties may be omitted without raising an error.}}
+(**X**)Make the property optional.{{Optional properties may be omitted without raising an error.}}
 
 ## Multiple Choice
 
 What happens when you extend one interface with another interface?
 
-(x)You must implement all the required properties from all interfaces.{{Any required properties in any of the interfaces must be implemented in the combined interface.}}
+(**X**)You must implement all the required properties from all interfaces.{{Any required properties in any of the interfaces must be implemented in the combined interface.}}
 
 ()Multiple interfaces can have the same property if the property has the exact same name.{{Multiple interfaces can have the same property if the property has the exact same name, but they must also be the same type.}}
 

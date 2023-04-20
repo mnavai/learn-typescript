@@ -1,0 +1,12 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "This is the TypeScript course repository for the Microsoft WebDev for MS Learn project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
